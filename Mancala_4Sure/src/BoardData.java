@@ -178,6 +178,8 @@ public class BoardData {
 		for (int i = 0; i < BOARD_LENGTH - 1; i++) {
 			board.get(side).set(i, 0);
 		}
+		JOptionPane.showMessageDialog(null, side + " is the winner");
+
 	}
 
 	public void addListener(final ChangeListener l) {
